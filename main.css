@@ -197,6 +197,14 @@ nav#socialLink li{
 }
 
 
+.cartEmpty{
+    padding-top: 4rem;
+    text-align: center;
+}
+.cartEmpty h2{
+    color: black;
+}
+
 .productRow {
     /*height: 125px;*/
     text-align: justify;
@@ -233,6 +241,8 @@ nav#socialLink li{
 .itemPrice{
     font-size: 1rem;
 }
+
+
 section div.item{
     float: left;
     position: relative;
@@ -259,6 +269,22 @@ section div.item{
     color: black;
 }
 
+.leftIMG{
+    float: left;
+    display: inline-block;
+    width: 25rem;
+}
+
+.rightIMG{
+    display: inline-block;
+    float: right;
+    width: 20rem;
+}
+.centerIMG{
+
+    display: block;
+    margin: 0 auto 0 auto;
+}
 
 
 footer{
