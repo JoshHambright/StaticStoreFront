@@ -94,12 +94,12 @@ header {
 
 header h1 {
     font-family   : Verdana, Geneva, sans-serif;
-    color         : ##000;
+    color         : #000;
     font-size     : 7.5em;
     letter-spacing: -0.025em;
     margin        : 0;
-    text-shadow   : 4px 2px 10px #FFF;
-    /* offset-x | offset-y | blur-radius | color */
+    text-shadow   : 4px 4px 5px #24a0a0 ;
+                    /* offset-x | offset-y | blur-radius | color */
 }
 
 header h2 {
@@ -142,7 +142,9 @@ nav {
     text-align: right;
     background-color: rgba(255, 255, 0, 0.822);
     position: fixed;
-    border-radius: 4px;
+    border-radius: 6px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 nav ul {
@@ -164,55 +166,17 @@ nav li a:visited {
 }
 
 nav li a:hover {
-    color           : #FFF;
-    background-color: rgba((252), 251, 243, .75);
+    color           : #F00;
 }
 .cartIcon{
-    width: 1.5rem;
+    width: 1.25rem;
     position: inherit;
-    margin-bottom: -.25rem;
+    margin-bottom: -.20rem;
 }
-/*h2{
-    display: inline-block;
-}*/
+h2{
+ 
+}
 
-/* nav#utilityMenu{
-    float: right;
-    margin: -1.5em 0 0 0;
-    padding: .35em;
-    background-color: rgba(64,54,47,0.8);
-    height: 1.3em;
-}
-nav#utilityMenu li{
-    padding: 0 0.25em 0 0.2em;
-    vertical-align: middle;
-}
-nav#utilityMenu ul li.acctnav a, nav#utilityMenu ul li.acctNav a:visited{
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
-    height: 1.3em;
-    padding: .5em;
-    margin: -.4em 0 0 0;
-    font-size: .8em;
-}
-nav#utilityMenu ul li.acctNav a.active{
-    background-color: #C64322;
-}
-nav#utilityMenu ul li.acctNav a:hover{
-    background-color: rgba(252,251,243,0.7);
-    color: #C64322;
-}
-nav#utilityMenu li a, nav#utilityMenu li a:visited { padding: 0;}
-nav#utilityMenu li a:hover { background-color: transparent;}
-nav#utilityMenu ul li input#search {
-    vertical-align: middle;
-    margin: 0 0 0 1.0em;
-}
-nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::before {
-    content: "| ";
-    color: #FCFBE6;
-} */
 .socialIcon{
     height: 1rem;
     width: 1rem;
@@ -283,6 +247,16 @@ section div.item{
 
 .seeMore{
     text-align: center;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    border-radius: 1px;
+}
+.seeMore h2:hover,
+.seeMore:hover{
+    background-color: #caa29860;
+    color: black;
 }
 
 
