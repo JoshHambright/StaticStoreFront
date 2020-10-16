@@ -145,6 +145,7 @@ nav {
     border-radius: 6px;
     padding-top: .5rem;
     padding-bottom: .5rem;
+    box-shadow:  1px 2px 5px rgba(0, 0, 0, 0.644), 0 6px 20px 2px rgba(0, 0, 0, 0.19);
 }
 
 nav ul {
@@ -198,12 +199,21 @@ nav#socialLink li{
 
 
 .cartEmpty{
-    padding-top: 4rem;
+    position: relative;
+    margin: 0 auto 2rem auto;
+    width: 40%;
+    height: 10rem;
     text-align: center;
+    background: #888888cb;
+    
 }
 .cartEmpty h2{
     color: black;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 10rem;
 }
+
 
 .productRow {
     /*height: 125px;*/
@@ -211,6 +221,7 @@ nav#socialLink li{
     border: 10px solid transparent;
    /* font-size: 0.1px; /* IE 9/10 don't like font-size: 0; */ 
     min-width: 600px;
+    
   }
   .productRow div {
     width: 150px;
@@ -220,6 +231,7 @@ nav#socialLink li{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;   
     border-radius: 1rem; 
+    box-shadow:  4px 8px 2px rgba(0, 0, 0, 0.644), 0 6px 20px 2px rgba(0, 0, 0, 0.19);
 }
   .productRow:after {
     content: '';
@@ -269,21 +281,71 @@ section div.item{
     color: black;
 }
 
-.leftIMG{
-    float: left;
-    display: inline-block;
-    width: 25rem;
+.aboutOne{
+    display: flex; 
+    align-items: center;
+    vertical-align: middle;
+    padding: 1rem;
 }
 
-.rightIMG{
-    display: inline-block;
-    float: right;
-    width: 20rem;
+.aboutOne img{
+    width: 30rem;
+    border: 2rem transparent;
+    border-radius: 2rem;
+    margin-left: 3rem;
 }
-.centerIMG{
-
+.centerImage{
     display: block;
+    width: 75%;
+    margin: 2rem auto 4rem auto;
+    position: relative;
+    /*border: 1rem solid transparent;*/
+    border-radius: 2rem;
+    
+}
+
+.aboutCenter{
+    width: 90%;
     margin: 0 auto 0 auto;
+    font-size: .75rem;
+}
+.aboutCenter img{
+    /*
+    box-shadow: 4px 4px 8px;*/
+    box-shadow:  4px 8px 2px rgba(0, 0, 0, 0.644), 0 6px 20px 2px rgba(0, 0, 0, 0.19);
+}
+.aboutTwo{
+    display: flex; 
+    align-items: center;
+    padding: 1rem;
+}
+
+.aboutTwo img{
+    width: 25rem;
+    border: 2rem transparent;
+    border-radius: 2rem;
+    margin-right: 3rem;
+}
+
+.contactWrapper{
+    position: relative;
+    margin: 0 auto 4rem auto;
+    width: 80%;
+    margin-bottom: 4rem;
+}
+
+.signupForm{
+    width: 40%;
+    background: #C29A55;
+    box-shadow:  4px 8px 2px rgba(0, 0, 0, 0.644), 0 6px 20px 2px rgba(0, 0, 0, 0.19);
+    margin: auto;
+    position: relative;
+}
+
+.formItem{
+    position: block;
+    margin: 0 auto 0 auto;
+    width: 90%;
 }
 
 
