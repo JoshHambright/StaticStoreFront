@@ -137,7 +137,7 @@ nav {
     color         : #000;
     font-size     : 1.7em;
     letter-spacing: 0.04em;
-    padding       : 1.0em 1.0em 0.5em;
+    padding       : 1.0em 1.0em 0.25em;
     margin        : 1.0em 0;
     text-align: right;
     background-color: rgba(255, 255, 0, 0.822);
@@ -163,11 +163,13 @@ nav li a,
 nav li a:visited {
     text-decoration: none;
     color          : #c64322;
-    padding        : 0.3em 0.6em;
+    padding        : 0.3em 0.15em;
 }
 
 nav li a:hover {
     color           : #F00;
+    background-color: #88888833;
+    border-radius: 4px;
 }
 .cartIcon{
     width: 1.25rem;
