@@ -326,16 +326,19 @@ section div.item{
     border-radius: 2rem;
     margin-right: 3rem;
 }
-
+/* 
 .contactWrapper{
     position: relative;
+    display: flex;
     margin: 0 auto 4rem auto;
-    width: 80%;
+    width: 50%;
     margin-bottom: 4rem;
+
 }
 
 .signupForm{
     width: 40%;
+    height: 30rem;
     background: #C29A55;
     box-shadow:  4px 8px 2px rgba(0, 0, 0, 0.644), 0 6px 20px 2px rgba(0, 0, 0, 0.19);
     margin: auto;
@@ -348,6 +351,27 @@ section div.item{
     width: 90%;
 }
 
+.contactInfo{
+    width: 40%;
+    height: 20rem;
+    padding-top: 10rem;
+    background: #00b0cf;
+    box-shadow:  4px 8px 2px rgba(0, 0, 0, 0.644), 0 6px 20px 2px rgba(0, 0, 0, 0.19);
+    margin: auto;
+    position: relative;
+}
+*/
+.contactPhoto{
+    width: 10rem;
+
+}
+/*
+.contactInfo ul {
+    margin    : 0;
+    padding   : 0;
+    list-style: none;
+}
+*/
 
 footer{
     background-color: #40362F;
