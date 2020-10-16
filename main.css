@@ -113,7 +113,7 @@ header h2 {
 p {
     font-size  : 1.2em;
     line-height: 1.4em;
-    color      : #555555;
+    color      : #0f0f0f;
     padding    : 0px;
     margin     : 0px 0.5em 0.75em 0px;
 }
@@ -205,13 +205,18 @@ nav#socialLink li{
     height: 10rem;
     text-align: center;
     background: #888888cb;
+    border-radius: 1rem;
+    box-shadow:  4px 8px 10px rgba(0, 0, 0, 0.644), 0 6px 20px 2px rgba(0, 0, 0, 0.19);
+
     
 }
 .cartEmpty h2{
     color: black;
     display: inline-block;
     vertical-align: middle;
-    line-height: 10rem;
+    font-size: 2rem;
+    line-height: 7rem;
+    
 }
 
 
@@ -339,6 +344,7 @@ section div.item{
     width: 20rem;
     margin: 0 auto 0 auto;
     box-shadow:  4px 8px 2px rgba(0, 0, 0, 0.644), 0 6px 20px 2px rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
 
 }
 .contactLeft h2{
@@ -357,17 +363,23 @@ section div.item{
     margin: 0 auto 0 auto;
     display: block;
     width: 10rem;
+    border-radius: 1rem;
+    box-shadow:  4px 8px 2px rgba(0, 0, 0, 0.644), 0 6px 20px 2px rgba(0, 0, 0, 0.19);
+
 
 }
 
 .formCenter{
-    padding-top: 6rem;
+    padding-top: 3rem;
+    padding-right: .75rem;
     width: 80%;
     margin: 0 auto 0 auto;
 }
 
 .formItem{
     width: 100%;
+    border-radius: 4px;
+    margin-top: 1rem;
 }
 
 .form{
@@ -377,19 +389,22 @@ section div.item{
 box-sizing:content-box;
 }
 textarea {
-    width: 103% !important;
+    width: 101% !important;
+    border-radius: 4px;
 }
 button {
-    color: #C64322;
+    margin-top: 1rem;
+    color: black;
     background-color: #FFF;
     display: inline-block;
     padding:0;
-    border: 1px solid #C64322;
+    border: 1px solid black;
     text-transform: uppercase;
+    border-radius: 4px;
     width: 103%;
 }
 button:hover {
-    background-color: #FBF3DB;
+    background-color: #f3f3f3;
     border: 1px solid #745b2f;
 }
 /* 
